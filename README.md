@@ -10,7 +10,13 @@ This project was developed during my sophomore summer break to enhance my MERN s
 - **Improve CSS skills.**
 - **Enhance backend project skills.**
   - I faced challenges with API calling and data fetching in previous MERN projects, especially when retrieving multiple data in a single call. This project helped me work on those issues and improve my proficiency.
-
+## What it can do
+1. Seach songs on database
+2. Page changes color based on searched song's album
+3. Download Lyric-card
+4. Search songs based on albums
+5. Page changes color based on searched album
+6. Screenshots are added below
 ## Application Screenshots
 
 - **Home Screen**
