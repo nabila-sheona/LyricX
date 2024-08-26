@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* App.css */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom right, #ff99cc, #fff0f5);
+  /* Updated to shades of pink */
+  min-height: 100vh;
+  position: relative;
+  min-height: 100vh;
+
+  padding: 20px;
+  transition: background-color 0.3s ease;
+  /* Smooth transition for theme change */
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #d5006d;
+  /* Darker pink for better contrast */
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.input {
+  padding: 10px;
+  font-size: 1rem;
+  margin-right: 10px;
+  border: 1px solid #ff007f;
+  /* Pink border for the input */
+  border-radius: 4px;
+  background-color: #ffffff;
+  /* Keep input background white for readability */
+  color: #000000;
+  /* Ensure text color is visible */
+}
+
+.button {
+  background-color: #ff4081;
+  /* Button background in pink */
+  color: #ffffff;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 1rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #ff1f7a;
+  /* Darker shade for hover effect */
+}
+
+.results {
+  margin-top: 2rem;
+  max-width: 600px;
+  width: 100%;
+}
+
+.resultItem {
+  padding: 10px;
+  border: 1px solid #ff69b4;
+  /* Pink border for result items */
+  margin-bottom: 10px;
+  border-radius: 4px;
+  background-color: #ffe6f2;
+  /* Light pink background for results */
+}
+
+.lyrics {
+  margin-top: 10px;
+  white-space: pre-wrap;
+  background-color: #fff;
+  /* Keep lyrics background white for readability */
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  font-family: monospace;
+}
+
+.error {
+  color: red;
+  margin-top: 1rem;
+}
+
+.success {
+  color: green;
+  margin-top: 1rem;
+}

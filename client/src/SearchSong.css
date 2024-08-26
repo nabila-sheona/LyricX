@@ -1,0 +1,162 @@
+/* Set the background to cover the entire screen */
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: linear-gradient(to bottom right, #f8addb, #ffffff);
+    /* Fallback background color */
+}
+
+.s-container {
+    min-height: 100vh;
+    /* Make sure the container takes up the full height of the viewport */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    transition: background-color 0.3s ease;
+
+    background: linear-gradient(to bottom right, #f8addb, #ffffff);
+    /* Smooth transition for theme change */
+}
+
+.s-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: linear-gradient(to bottom right, #3b071f, #d1c0c9);
+
+    /* Darker pink for better contrast */
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.s-input {
+    padding: 10px;
+    font-size: 1rem;
+    margin-right: 10px;
+    border: 1px solid #ff007f;
+    /* Pink border for the input */
+    border-radius: 4px;
+    background-color: #ffffff;
+    /* Keep input background white for readability */
+    color: #000000;
+    /* Ensure text color is visible */
+}
+
+.s-button {
+    background-color: #ff1f7a;
+    ;
+    /* Button background in pink */
+    color: #ffffff;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.s-button:hover {
+    background-color: #ff1f7a;
+    /* Darker shade for hover effect */
+}
+
+.s-results {
+    margin-top: 2rem;
+    max-width: 600px;
+    width: 100%;
+}
+
+.s-resultItem {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    background-color: #fa72b4;
+    align-items: center;
+}
+.ss-resultItem {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    background-color: #fa72b4;
+    align-items: center;
+}
+
+.s-lyrics {
+    margin-top: 10px;
+    white-space: pre-wrap;
+    background-color: #e280dd;
+    border: 1px solid #e532d0;
+    border-radius: 4px;
+    padding: 10px;
+    font-family: monospace;
+}
+
+.error {
+    color: red;
+    margin-top: 1rem;
+}
+
+.success {
+    color: green;
+    margin-top: 1rem;
+}
+
+
+
+.album-buttons {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    width: 80%;
+    padding: 10px 0;
+    /* Adjusted to give some padding around the buttons */
+    margin-top: 20px;
+    /* Position the buttons below the search section */
+}
+
+.album-buttons button {
+    flex-shrink: 0;
+    /* Prevent buttons from shrinking */
+    margin: 0 5px;
+    padding: 0.75rem 1.5rem;
+    /* Same padding as the search button */
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+    min-width: 150px;
+    /* Set a minimum width similar to the search button */
+    min-height: 50px;
+    /* Set a minimum height similar to the search button */
+    color: white;
+    transition: transform 0.3s ease;
+}
+
+.album-buttons button:hover {
+    transform: scale(1.05);
+}
+
+.download-button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.download-button:hover {
+    background-color: #45a049;
+}
