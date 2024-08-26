@@ -1,6 +1,4 @@
-# LyricX - MERN Stack Project :
-
-https://lyricx.onrender.com
+# LyricX( https://lyricx.onrender.com ) - MERN Stack Project :
 A Taylor Swift Fandom project, this website aims to include all her songs by album.
 
 This project was developed during my sophomore summer break to enhance my MERN stack skills, particularly in CSS, backend development, and API handling. Note that the database was not fully updated it make take some time to update the database with All taylor swift songs, there's like 300 of them.
