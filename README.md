@@ -48,7 +48,7 @@ This project was developed during my sophomore summer break to enhance my MERN s
 3. Navigate to the frontend directory:
 
 ```bash
-cd c
+cd client
 ```
 
 ```bash
